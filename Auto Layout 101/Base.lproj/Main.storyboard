@@ -72,13 +72,24 @@
                     <view key="view" contentMode="scaleToFill" id="Aur-aK-0wt">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.086587027468729594" blue="0.052890918116422658" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <color key="tintColor" red="1" green="0.15568531490000001" blue="0.12898652960000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="i4V-4b-ZgH">
+                                <rect key="frame" x="40" y="0.0" width="375" height="667"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="i4V-4b-ZgH" secondAttribute="trailing" constant="40" id="GxV-yI-cd5"/>
+                            <constraint firstItem="i4V-4b-ZgH" firstAttribute="top" secondItem="Tx2-hL-t52" secondAttribute="bottom" constant="-20" id="I7n-nk-AgP"/>
+                            <constraint firstItem="WGH-8z-A19" firstAttribute="top" secondItem="i4V-4b-ZgH" secondAttribute="bottom" id="P65-gO-0zP"/>
+                            <constraint firstItem="i4V-4b-ZgH" firstAttribute="leading" secondItem="Aur-aK-0wt" secondAttribute="leading" id="eR9-EX-AZU"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c4F-Di-stL" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-423" y="66"/>
+            <point key="canvasLocation" x="-423.19999999999999" y="65.217391304347828"/>
         </scene>
     </scenes>
     <resources>
